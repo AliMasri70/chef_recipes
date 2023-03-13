@@ -34,8 +34,6 @@ class _VideoPlayerPopupState extends State<VideoPlayerPopup> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-
     double _playerHeight = 200;
     double _playerWidth = 400;
     return AlertDialog(
